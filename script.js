@@ -1,5 +1,6 @@
 //your JS code here. If required.
 function remove(){
-	const element = document.getElementsById("colorSelect");
-	element.remove(element.selectedIndex)
+    const element=document.getElementById("colorSelect")
+    // console.log(element.selectedIndex)
+    element.remove(element.selectedIndex);
 }
